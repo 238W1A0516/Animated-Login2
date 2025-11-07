@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1e1e2f;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 60px; /* initial height (only title visible) */
+    background: #2d2d39;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    transition: height 0.4s ease-in-out;
+}
+
+/* expands the box to reveal the form */
+.box:hover,
+.box:focus-within {
+    height: 220px; /* full height */
+}
+
+/* title is always visible */
+.title {
+    font-size: 20px;
+    line-height: 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #2d2d39;
+    border-radius: 10px;
+}
+
+/* initially hidden */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 70px 10px 10px; /* push content below title */
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* show form fields when box expands */
+.box:hover .login-form,
+.box:focus-within .login-form {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.login-form input {
+    width: 90%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+}
+
+.login-form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.login-form button {
+    width: 90%;
+    padding: 8px;
+    background: #ff4f5a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background: #ff2e3c;
+}
