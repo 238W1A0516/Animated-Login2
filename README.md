@@ -97,5 +97,6 @@ The [MIT](https://choosealicense.com/licenses/mit/) License (MIT)
 
 <p align="center">
   “Good design is about making things simple yet significant”<br>
-  — <a href="https://github.com/iam-ariful-islam" target="_blank"><strong>Md. Ariful Islam</strong></a>
+  — <a href="https://github.com/iamx-ariful-islam" target="_blank"><strong>Md. Ariful Islam</strong></a>
+
 </p>
